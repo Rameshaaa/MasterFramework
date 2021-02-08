@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43841" started-at="2021-02-01T13:07:48Z" finished-at="2021-02-01T13:08:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="43841" started-at="2021-02-01T13:07:48Z" finished-at="2021-02-01T13:08:32Z">
+      <class name="com.mas.testCases.Radiobtn_txt_validation">
+        <test-method status="PASS" signature="launchURL()[pri:0, instance:com.mas.testCases.Radiobtn_txt_validation@47c62251]" name="launchURL" is-config="true" duration-ms="16605" started-at="2021-02-01T18:37:48Z" finished-at="2021-02-01T18:38:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method status="PASS" signature="radiobtn()[pri:0, instance:com.mas.testCases.Radiobtn_txt_validation@47c62251]" name="radiobtn" duration-ms="25567" started-at="2021-02-01T18:38:05Z" finished-at="2021-02-01T18:38:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- radiobtn -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.mas.testCases.Radiobtn_txt_validation@47c62251]" name="close" is-config="true" duration-ms="1629" started-at="2021-02-01T18:38:31Z" finished-at="2021-02-01T18:38:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.mas.testCases.Radiobtn_txt_validation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
