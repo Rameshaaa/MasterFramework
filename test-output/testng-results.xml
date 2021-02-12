@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="30707" started-at="2021-02-12T07:43:28Z" finished-at="2021-02-12T07:43:58Z">
+  <suite name="Default suite" duration-ms="60" started-at="2021-02-12T12:31:58Z" finished-at="2021-02-12T12:31:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="30707" started-at="2021-02-12T07:43:28Z" finished-at="2021-02-12T07:43:58Z">
-      <class name="com.mas.testCases.MobileNativeApp">
-        <test-method status="PASS" signature="NativeApp()[pri:0, instance:com.mas.testCases.MobileNativeApp@42e26948]" name="NativeApp" duration-ms="30655" started-at="2021-02-12T13:13:28Z" finished-at="2021-02-12T13:13:58Z">
+    <test name="Default test" duration-ms="60" started-at="2021-02-12T12:31:58Z" finished-at="2021-02-12T12:31:58Z">
+      <class name="com.mas.resources.RestAPIFunctions">
+        <test-method status="PASS" signature="getProperty()[pri:0, instance:com.mas.resources.RestAPIFunctions@6e1567f1]" name="getProperty" duration-ms="21" started-at="2021-02-12T18:01:58Z" finished-at="2021-02-12T18:01:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- NativeApp -->
-      </class> <!-- com.mas.testCases.MobileNativeApp -->
+        </test-method> <!-- getProperty -->
+      </class> <!-- com.mas.resources.RestAPIFunctions -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

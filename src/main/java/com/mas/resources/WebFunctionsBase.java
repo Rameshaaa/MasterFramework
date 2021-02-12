@@ -31,6 +31,7 @@ import io.appium.java_client.remote.MobileCapabilityType;
 
 public class WebFunctionsBase {
 	
+	
 	public WebDriver driver;
 	public Properties prop;
 	public FileInputStream fis;
@@ -74,6 +75,7 @@ public class WebFunctionsBase {
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		
 		return driver;
+		
 	}
 	
 	
