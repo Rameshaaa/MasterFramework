@@ -8,11 +8,11 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import com.mas.ObjectRepo.ObjectRepository;
 import com.mas.excelUtils.ExcelUtils;
-import com.mas.resources.Base;
+import com.mas.resources.WebFunctionsBase;
 
 public class Radiobtn_txt_validation implements ObjectRepository {
 	
-	Base objWD = new Base();
+	WebFunctionsBase objWD = new WebFunctionsBase();
 	ExcelUtils d = new ExcelUtils();
 		
 					
@@ -43,6 +43,7 @@ public class Radiobtn_txt_validation implements ObjectRepository {
 		objWD.switchWindow();
 		objWD.ExplicitWait(practiceLink, "VISIBILITY");
 		objWD.click(practiceLink);
+	
 	
 	}
 	

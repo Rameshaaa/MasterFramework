@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-2.4.dtd">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-<listeners>
-	<listener class-name="com.mas.resources.Listeners"/>
-</listeners>
   <test name="Test">
     <classes>
+      <class name="com.mas.testCases.MobileWebApp"/>
+      <class name="com.mas.testCases.MobileNativeApp"/>
       <class name="com.mas.testCases.Radiobtn_txt_validation"/>
     </classes>
   </test> <!-- Test -->

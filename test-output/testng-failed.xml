@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.mas.testCases.Radiobtn_txt_validation">
+      <class name="com.mas.testCases.MobiletestCase">
         <methods>
-          <include name="radiobtn"/>
-          <include name="launchURL"/>
-          <include name="close"/>
+          <include name="mobileLanuch"/>
         </methods>
-      </class> <!-- com.mas.testCases.Radiobtn_txt_validation -->
+      </class> <!-- com.mas.testCases.MobiletestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
